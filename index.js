@@ -68,7 +68,7 @@ function dice() {
       break;
   }
   if (x > y) {
-    document.querySelector("h1").innerHTML = " 🏆 Player 1 wins ";
+    document.querySelector("h1").innerHTML = "🏆 Player 1 wins ";
     document.querySelector(".p1").innerHTML = " Player 1 😎";
     document.querySelector(".p2").innerHTML = " Player 2 ";
   } else if (y > x) {

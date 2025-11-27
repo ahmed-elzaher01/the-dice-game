@@ -6,6 +6,29 @@
 body {
   background-color: #393e46;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 20px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
 
 h1 {
   padding: 20px;
@@ -41,6 +64,7 @@ footer {
   font-style: normal;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 5px;
 }
 .btn {
   margin-top: 20px;
@@ -62,4 +86,11 @@ button {
 
 button:hover {
   background-color: #3ba889;
+}
+
+@media (max-width: 600px) {
+  .game {
+    gap: 20px;
+    flex-direction: column;
+  }
 }
